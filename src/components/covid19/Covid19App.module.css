@@ -14,6 +14,11 @@ body {
   margin-top: 30px;
 }
 
+.author {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
 @media (max-width: 770px) {
   .container {
     margin: 0 10%;

@@ -25,6 +25,7 @@ class Covid19App extends React.Component {
     return (
       <div className={styles.container}>
         <img src={covid19logo} alt="Covid-19 logo" className={styles.logo} />
+        <p className={styles.author}>Created by: Suneel Soni</p>
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
